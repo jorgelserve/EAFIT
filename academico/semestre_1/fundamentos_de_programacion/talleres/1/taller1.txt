@@ -1,0 +1,71 @@
+1. Cuáles de los siguientes son identificadores válidos en Java (si o no y explique):
+	a. class: No es válido puesto que es una palabra reservada.
+	b. contadorInstancias: Es válida pues inicia con una letra y no contiene ningún carácter especial.
+	c. XYZ: No es valida debido a que inicia con mayúscula.
+	d. if: Es una palabra reservada, lo que la hace no valida.
+	e. acum_of_shots: es válida  puesto que se esta usando under score al separar las palabras.
+	f. Z5: Inicia con mayúscula, no es valida
+_____________________________________________________________________________________________________________
+2. 
+'''
+	System.out.println("This is a test of your");
+	System.out.println("\tknowledge of \"quotes\" used");
+	System.out.println("\tin 'string literals.'");
+	System.out.println("You're bound to \"get it right\" if you read the section on");
+	System.out.println("'' quotes. ''");
+
+'''
+_____________________________________________________________________________________________________________
+3. 
+'''
+
+1 |	public class Errores
+2 |	{
+3 |	   public static void main(string [] args) {
+4 |			System.out.println("Hola amiga:")
+5 |			System.out.println("Bienvenida al curso);
+6 |   
+7 |	}
+
+Error 1(linea 3): string debe tener su primera letra en mayúscula ==> String[]
+Error 2(linea 4): Falta el ;
+Error 3(linea 5): falta cerrar el string literal con "
+Error 4(linea 6): falta cerrar el método con la llave }
+
+
+'''
+_____________________________________________________________________________________________________________
+4. Nada puesto que falta agregar los parámetros (String[] args) y al haberlo corregido imprimiría esto:
+
+En el primer m?todo
+En el tercer m?todo
+En el primer m?todo
+En el segundo m?todo
+En el primer m?todo
+En el segundo m?todo
+_____________________________________________________________________________________________________________
+5.
+'''
+
+/*
+	Corregido por: Jorge Luis Serna Velasquez (https://github.com/jorgelserve)
+	
+	Version: 1.0.1 (2018/01/24)
+
+*/
+
+// clase
+public class Indentar {
+	// Metodo main
+	public static void main(String [] args) {
+		// statements
+		System.out.println("Los programas pueden ser");
+		System.out.println("fáciles o difíciles de leer,");
+		System.out.println("dependiendo del programador.");
+		System.out.println("Deberían ser fáciles de leer");
+		System.out.println("Para todos, incluido el programador");
+	}
+}
+
+'''
+	
