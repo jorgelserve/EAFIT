@@ -11,7 +11,7 @@ Las respuestas a los ejercicios 6 al 12 se incluyen en un archivo llamado [Talle
 *
 * @author Pepito Pérez
 * @version Enero de 2018
-*/
+* /
 
 public class Taller1
 {
