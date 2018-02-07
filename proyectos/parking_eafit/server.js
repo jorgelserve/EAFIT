@@ -8,4 +8,6 @@ app.get('*', (req, res) => {
 	res.status(200).render('index')
 })
 
-app.listen(3000, () => console.log('escuchando en puerto 3000'))
+var port = process.env.PORT || 3000
+
+app.listen(port, () => console.log(`escuchando en puerto ${port}`))

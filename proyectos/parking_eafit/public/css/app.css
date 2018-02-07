@@ -1,3 +1,10 @@
+.progress {
+  height: 30px !important;
+  background-color: #d7dada !important; }
+
+.btn, .btn-large {
+  background-color: #3A5FFF !important; }
+
 div.nav-wrapper {
   background-color: #2DC3FF !important; }
 

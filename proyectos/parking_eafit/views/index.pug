@@ -8,11 +8,12 @@ html
 		link(type='text/css', rel='stylesheet', href='css/app.css', media='screen,projection')
 		// Let browser know website is optimized for mobile
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title Parking EAFIT
 	body
 		header
 			nav
 				.nav-wrapper
-					a.brand-logo(href='#') EAFIT Park
+					a.brand-logo(href='/') EAFIT Park
 					ul#nav-mobile.right.hide-on-med-and-down
 						li
 							a(href='/') Home
@@ -30,12 +31,12 @@ html
 		script.
 			// Initialize Firebase
 			var config = {
-			apiKey: "AIzaSyAeIno4ELxKofq-V9_GjkrhfbZN_KXdSOo",
-			authDomain: "eafit-park.firebaseapp.com",
-			databaseURL: "https://eafit-park.firebaseio.com",
-			projectId: "eafit-park",
-			storageBucket: "eafit-park.appspot.com",
-			messagingSenderId: "873788544899"
+				apiKey: "AIzaSyAeIno4ELxKofq-V9_GjkrhfbZN_KXdSOo",
+				authDomain: "eafit-park.firebaseapp.com",
+				databaseURL: "https://eafit-park.firebaseio.com",
+				projectId: "eafit-park",
+				storageBucket: "eafit-park.appspot.com",
+				messagingSenderId: "873788544899"
 			};
 			firebase.initializeApp(config);
 		script(type='text/javascript', src='js/app.js')
