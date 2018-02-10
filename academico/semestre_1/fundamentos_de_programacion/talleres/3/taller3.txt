@@ -1,0 +1,48 @@
+1.	Traduzca cada una de las siguientes condiciones a condiciones lógicas que se puedan usar en una instrucción if. Asuma que ya se han declarado las variables x, y y z. Puede usar la función Math.abs(int), que retorna el valor absoluto del número que recibe como parámetro
+	a.	if (z%2 != 0)
+	b.	if (!(z<(y*y)))
+	c.	if (!(z%y))
+	d.	if ((w>0 && v>0) || (w<0 && v<0)) 
+	e.	if(x > Math.abs(z))
+	f.	if(Integer.toString(m).length() == 2 && m < 0)
+	g.	if (b-a < b-c)
+
+
+2.	Cuál es el resultado de las expresiones:
+	a.	false
+	b.	false
+	c.	false
+	d.	false
+	e.	false
+	f.	true
+	g.	true
+
+3.	Qué salida se produce en cada una de los llamados al método:
+	a.	10 6
+	b.	9 9
+	c.	3 4
+	d.	29 30
+
+
+4.	Examine el código y describa en qué caso el programa produce una información falsa acerca del número que se ingresa. Explique por qué. Luego corrija el código. 
+	El problema se da a que number % 5 == 0 no conlleva a que number se impar
+	
+	'''
+	Scanner console = new Scanner(System.in);
+	System.out.print("Digite un número ");
+	int number = console.nextInt();
+	
+	if (number % 2 == 0) {
+		if (number % 5 == 0) {
+			System.out.println("Divisible por 10.");
+		}
+	} else {
+		System.out.println("Impar.")
+	}
+
+	
+	'''
+
+
+
+
