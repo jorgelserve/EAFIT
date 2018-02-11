@@ -43,6 +43,13 @@
 	
 	'''
 
+9. Cuál es el valor de las expresiones booleanas:
+	1. true
+	2. true
+	3. false (error)
+	4. true
+	5. false 
+	6. false (error)
 
 
-
+	
