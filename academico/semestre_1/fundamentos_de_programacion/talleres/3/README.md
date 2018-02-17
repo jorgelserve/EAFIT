@@ -13,7 +13,7 @@ El punto 18 se resuelve en [Codingbat](http://codingbat.com). Para que se puedan
 *
 * @author Pepito Pérez
 * @version Enero de 2018
-*/
+* /
 
 public class Taller1
 {
@@ -187,7 +187,7 @@ Se requiere hacer un programa que ayude a medir la condición física de una per
 ### Código de Ética
 * Usted puede conversar con sus compañeros acerca de los enfoques que cada uno está utilizando para la tarea, pero NO se debe mirar el código de sus compañeros y mucho menos usarlo como parte de su tarea.  
 * No debe aceptar que otra persona (compañero, tío, amigo, novia, primo hermano del mocho) “le ayude” escribiendo parte del código de su tarea.
-* Copiar código de un compañero constituye un fraude. Para mayor información, mirar el [reglamento]( http://www.eafit.edu.co/institucional/reglamentos/Paginas/reglamento-academico-pregrado.aspx) académico de EAFIT:
+* Copiar código de un compañero constituye un fraude. Para mayor información, mirar el [reglamento](http://www.eafit.edu.co/institucional/reglamentos/Paginas/reglamento-academico-pregrado.aspx) académico de EAFIT:
 
  
 * http://www.eafit.edu.co/institucional/reglamentos/Documents/pregrado/regimen-disciplinario/cap1.pdf

@@ -144,6 +144,30 @@ public class Taller3 {
 		System.out.print(dias-1);
 		System.out.print(" para el " + date + " de " + mes[month-1]);
 	}
+
+	public static void ejercicio15(int horas) {
+		if(horas <= 40) {
+			System.out.println("$ " + horas * 10000);
+		} else if (horas > 40 ){
+			System.out.println("$ " + (((horas - 40) * 20000) + ((horas - (horas - 40)) * 10000)));
+		}
+	}
+
+
+
+	public static void ejercicio16(int litros) {
+		int pago;
+		if(litros > 200) {
+			pago = 6060000 + ((litros - 250) * 50000);
+		} else if(litros <= 200 && litros >50) {
+			pago = 60000 + ((litros - 50) * 30000);
+		} else {
+			pago = 60000;
+		}
+		System.out.println("$ " + pago);
+	}
+
+
 }
 
 
