@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Taller4
+comment1.params=
+comment1.target=void\ punto1A()
+comment2.params=sum
+comment2.target=void\ punto1B(int)
+comment3.params=m\ n
+comment3.target=void\ punto1C(int,\ int)
+comment4.params=n
+comment4.target=int\ punto1D(int)
+comment5.params=
+comment5.target=void\ punto1E()
+comment6.params=base\ exponente
+comment6.target=double\ punto1F(double,\ int)
+comment7.params=num
+comment7.target=void\ punto1G(int)
+comment8.params=
+comment8.target=void\ punto1H()
+comment9.params=
+comment9.target=void\ punto1I()
+numComments=10
