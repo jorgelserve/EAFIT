@@ -2,6 +2,8 @@
 comment0.target=Taller4
 comment1.params=
 comment1.target=void\ punto1A()
+comment10.params=
+comment10.target=void\ punto1J()
 comment2.params=sum
 comment2.target=void\ punto1B(int)
 comment3.params=m\ n
@@ -18,4 +20,4 @@ comment8.params=
 comment8.target=void\ punto1H()
 comment9.params=
 comment9.target=void\ punto1I()
-numComments=10
+numComments=11
