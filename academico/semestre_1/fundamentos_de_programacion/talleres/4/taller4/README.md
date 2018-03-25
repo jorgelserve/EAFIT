@@ -49,13 +49,13 @@ Para recordar el significado del [sumatorio](https://es.wikipedia.org/wiki/Sumat
 		10 x 10 = 100
 		```
 	- **F)** Desarrollar un método potencia que reciba una base (tipo double) y un exponente (mayor o igual que 0, tipo entero) y retorne el resultado de la siguiente expresión:
-		> Base^EXPONENTE
+		> $base^{exponente}$
 		
 	- **G)** Escriba un programa que acepte un número entero positivo e imprima sus divisores enteros.
 	- **H)** Un programa que determine si un número x (mayor o igual que 0) que se lee es primo o no (recordar que un número es primo si solamente tiene divisores 1 y el mismo número).
 	- **I)** En un programa con menús numéricos, el usuario debe entrar un número entre 1 y 5. Escriba un ciclo que solo deje “pasar” al usuario si entra un número en el rango 1 <= n <= 5. Si el número no es válido, pedirlo de nuevo. Utilice un ciclo MIENTRAS (`while (true) {}`), ahora utilice un ciclo REPETIR (`do {}while(true)`).
 Hint: Recuerde el problema de la cerca.
-	- **J)** Consultar la expansión de Taylor de la función coseno. Haga un programa para calcular el coseno de 60 grados ($\frac{\pi}{3} rad$). Haga un ciclo calculando los términos y acumulándolos. El ciclo termina cuando el valor absoluto del término que se acaba de calcular sea menor que 0.0001 ([Expansión de Taylor Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Taylor)). Utilice el método para calcular el factorial() y el método para la potenciación `potencia()` que escribió anteriormente. Para el valor absoluto, puede utilizar la función `Math.abs()`.
+	- **J)** Consultar la expansión de Taylor de la función coseno. Haga un programa para calcular el coseno de 60 grados ( $\dfrac {\pi}{3}rad$ ). Haga un ciclo calculando los términos y acumulándolos. El ciclo termina cuando el valor absoluto del término que se acaba de calcular sea menor que 0.0001 ([Expansión de Taylor Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Taylor)). Utilice el método para calcular el factorial() y el método para la potenciación `potencia()` que escribió anteriormente. Para el valor absoluto, puede utilizar la función `Math.abs()`.
 	- **K)** Consulte el [algoritmo de Euclides](https://en.wikipedia.org/wiki/Euclidean_algorithm). Impleméntelo en java y explique lo que el programa hace brevemente en un comentario al comienzo del método.
 	- **L)** Consulte la [secuencia de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number). Implemente un método en Java que reciba un número positivo n (mayor o igual que 3) e imprima los primeros $n$ números de la secuencia de Fibonacci. Se asume que el primer número es 0 y el segundo número es 1.
 	- **M)** . Escriba un método que use valor centinela. El método le debe pedir al usuario que entre números negativos. Una vez que el usuario entre un número positivo, el programa debe mostrar el valor máximo y mínimo entre los números negativos introducidos.
