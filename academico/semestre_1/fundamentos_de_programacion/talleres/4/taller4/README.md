@@ -49,15 +49,15 @@ Para recordar el significado del [sumatorio](https://es.wikipedia.org/wiki/Sumat
 		10 x 10 = 100
 		```
 	- **F)** Desarrollar un método potencia que reciba una base (tipo double) y un exponente (mayor o igual que 0, tipo entero) y retorne el resultado de la siguiente expresión:
-		> $base^{exponente}$
+		> $$base^{exponente}$$
 		
 	- **G)** Escriba un programa que acepte un número entero positivo e imprima sus divisores enteros.
 	- **H)** Un programa que determine si un número x (mayor o igual que 0) que se lee es primo o no (recordar que un número es primo si solamente tiene divisores 1 y el mismo número).
 	- **I)** En un programa con menús numéricos, el usuario debe entrar un número entre 1 y 5. Escriba un ciclo que solo deje “pasar” al usuario si entra un número en el rango 1 <= n <= 5. Si el número no es válido, pedirlo de nuevo. Utilice un ciclo MIENTRAS (`while (true) {}`), ahora utilice un ciclo REPETIR (`do {}while(true)`).
 Hint: Recuerde el problema de la cerca.
-	- **J)** Consultar la expansión de Taylor de la función coseno. Haga un programa para calcular el coseno de 60 grados ( $\dfrac {\pi}{3}rad$ ). Haga un ciclo calculando los términos y acumulándolos. El ciclo termina cuando el valor absoluto del término que se acaba de calcular sea menor que 0.0001 ([Expansión de Taylor Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Taylor)). Utilice el método para calcular el factorial() y el método para la potenciación `potencia()` que escribió anteriormente. Para el valor absoluto, puede utilizar la función `Math.abs()`.
+	- **J)** Consultar la expansión de Taylor de la función coseno. Haga un programa para calcular el coseno de 60 grados ( $$\dfrac {\pi}{3}rad$$ ). Haga un ciclo calculando los términos y acumulándolos. El ciclo termina cuando el valor absoluto del término que se acaba de calcular sea menor que 0.0001 ([Expansión de Taylor Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Taylor)). Utilice el método para calcular el factorial() y el método para la potenciación `potencia()` que escribió anteriormente. Para el valor absoluto, puede utilizar la función `Math.abs()`.
 	- **K)** Consulte el [algoritmo de Euclides](https://en.wikipedia.org/wiki/Euclidean_algorithm). Impleméntelo en java y explique lo que el programa hace brevemente en un comentario al comienzo del método.
-	- **L)** Consulte la [secuencia de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number). Implemente un método en Java que reciba un número positivo n (mayor o igual que 3) e imprima los primeros $n$ números de la secuencia de Fibonacci. Se asume que el primer número es 0 y el segundo número es 1.
+	- **L)** Consulte la [secuencia de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number). Implemente un método en Java que reciba un número positivo n (mayor o igual que 3) e imprima los primeros $$n$$ números de la secuencia de Fibonacci. Se asume que el primer número es 0 y el segundo número es 1.
 	- **M)** . Escriba un método que use valor centinela. El método le debe pedir al usuario que entre números negativos. Una vez que el usuario entre un número positivo, el programa debe mostrar el valor máximo y mínimo entre los números negativos introducidos.
 	- **N)** Escriba un método llamado `sumaDados()` que acepte un `Scanner` como parámetro para leer desde la consola. El método debe pedirle al usuario una suma deseada (un número entre 2 y 12) y luego simular que se lanzan 2 dados, usando la función `Math.random()` de Java, hasta que se obtenga la suma deseada. El siguiente es un ejemplo del diálogo con el usuario:
 		```
@@ -67,9 +67,9 @@ Hint: Recuerde el problema de la cerca.
 		5 y 6 = 11
 		6 y 3 = 9
 		```
-	- **O)** Escriba un método que reciba como parámetro un número $n$ (mayor que 0) y escriba un patrón como se describe a continuación. 
+	- **O)** Escriba un método que reciba como parámetro un número $$n$$ (mayor que 0) y escriba un patrón como se describe a continuación. 
 		
-		Para $n = 4$:
+		Para $$n = 4$$:
 		```
 		...4
 		..3*
@@ -77,7 +77,7 @@ Hint: Recuerde el problema de la cerca.
 		1***
 		```
 
-		Para $n = 5$:
+		Para $$n = 5$$:
 		```
 		....5
 		...4*
@@ -90,7 +90,7 @@ Hint: Recuerde el problema de la cerca.
 	- **P)** ¿Se imagina que el tiempo retrocediera? Podemos hacer un simulador de reloj que muestre las horas como si el tiempo retrocediera, es decir, 12:00 11:59 11:58 11:57 … 0:03 0:02 0:01 0:00. Escriba un programa que imprima el tiempo retrocediendo, comenzando desde las 12:00.
 	- **Q)** Escriba un programa que calcule la distancia recorrida por un vehículo. Se conoce cuántas veces giró el eje y también se conoce el radio de las llantas. El programa debe determinar la distancia recorrida.
 	`Imagen de llantas`
-	- **S)** Una empresa que se dedica a la venta de combustible necesita un programa para gestionar las facturas. En cada factura aparece: el código del artículo, la cantidad vendida en litros y el precio por litro. Se pide, para 5 facturas introducidas: Facturación total, cantidad en litros vendidos del artículo 1 y cuantas facturas se emitieron de más de $500000.
+	- **S)** Una empresa que se dedica a la venta de combustible necesita un programa para gestionar las facturas. En cada factura aparece: el código del artículo, la cantidad vendida en litros y el precio por litro. Se pide, para 5 facturas introducidas: Facturación total, cantidad en litros vendidos del artículo 1 y cuantas facturas se emitieron de más de $$500000.
 2. Incluya las respuestas a los siguientes puntos en un archivo texto llamado
 [taller4.txt](../taller4.txt).
 	- **A)** Convierta el siguiente programa que usa ciclo for en un programa que
