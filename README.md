@@ -3,6 +3,6 @@
 ## Árbol de archivos 
 + [Académico](https://github.com/jorgelserve/EAFIT/tree/master/academico)
 	+ [Primer semestre](https://github.com/jorgelserve/EAFIT/tree/master/academico/semestre_1)
-  + [Primer semestre](https://github.com/jorgelserve/EAFIT/tree/master/academico/semestre_2)
+  + [Segundo semestre](https://github.com/jorgelserve/EAFIT/tree/master/academico/semestre_2)
 
 + [Proyectos](https://github.com/jorgelserve/EAFIT/tree/master/proyectos)
