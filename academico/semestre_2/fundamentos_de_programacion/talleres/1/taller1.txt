@@ -1,0 +1,70 @@
+1. ¿Cuáles de los siguientes son identificadores válidos en Java? (si o no y explique):
+	a. class: No es v‡lido puesto que es una palabra reservada.
+	b. contadorInstancias: Es v‡lida pues inicia con una letra y no contiene ningœn car‡cter especial.
+	c. XYZ: No es valida debido a que inicia con mayœscula.
+	d. if: Es una palabra reservada, lo que la hace no valida.
+	e. acum_of_shots: es v‡lida  puesto que se esta usando under score al separar las palabras.
+	f. Z5: Inicia con mayœscula, no es valida
+
+
+
+2. 
+'''
+	System.out.println("This is a test of your");
+	System.out.println("\tknowledge of \"quotes\" used");
+	System.out.println("\tin 'string literals.'");
+	System.out.println("You're bound to \"get it right\" if you read the section on");
+	System.out.println("'' quotes. ''");
+
+3. 
+	'''
+
+	1 |	public class Errores
+	2 |	{
+	3 |	   public static void main(string [] args) {
+	4 |			System.out.println("Hola amiga:")
+	5 |			System.out.println("Bienvenida al curso);
+	6 |   
+	7 |	}
+
+	Error 1(linea 3): string debe tener su primera letra en mayœscula ==> String[]
+	Error 2(linea 4): Falta el ;
+	Error 3(linea 5): falta cerrar el string literal con "
+	Error 4(linea 6): falta cerrar el mŽtodo con la llave }
+
+
+	'''
+
+4.
+	En el primer m?todo
+	En el tercer m?todo
+	En el primer m?todo
+	En el segundo m?todo
+	En el primer m?todo
+	En el segundo m?todo
+
+
+5.
+'''
+
+/*
+	Corregido por: Jorge Luis Serna Velasquez (https://github.com/jorgelserve)
+	
+	Version: 1.0.1
+
+*/
+
+// clase
+public class Indentar {
+	// Metodo main
+	public static void main(String [] args) {
+		// statements
+		System.out.println("Los programas pueden ser");
+		System.out.println("f‡ciles o dif’ciles de leer,");
+		System.out.println("dependiendo del programador.");
+		System.out.println("Deber’an ser f‡ciles de leer");
+		System.out.println("Para todos, incluido el programador");
+	}
+}
+
+'''
